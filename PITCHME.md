@@ -18,10 +18,10 @@
 # Timetable
 
 1. Brief Android Introduction
-    * Versions
-    * Notable changes
-    * Activities and Intents
-    * APIs
+	* Versions
+	* Notable changes
+	* Activities and Intents
+	* APIs
 2. Using git with these exercises
 2. Structure of an app
 3. Practical time
@@ -36,4 +36,6 @@
 
 ---
 
-# Android - Then and Now
+## Then and Now
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Android_Cupcake_home_screen.jpg" width="200"/>
+<img src= "https://icdn5.digitaltrends.com/image/screenshot_20170821-182305-1-720x720.jpg" width="200" />
