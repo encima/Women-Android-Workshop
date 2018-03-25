@@ -5,7 +5,7 @@
 
 ---
 
-# What You Need:
+### What You Need:
 
 * A machine with [Android Studio](https://developer.android.com/studio/index.html) installed
 * [Git](https://git-scm.com/downloads) installed
@@ -16,14 +16,14 @@
 
 --- 
 
-# Disclaimer(s)
+### Disclaimer(s)
 
 1. I have no idea what I am talking about. Stop me at any time with questions.
 2. This is far from an `All you can eat` introduction; I will include links for more detail on some topics, though.
 
 ---
 
-# Today's Outline*
+### Today's Outline*
 
 1. Git
 2. Brief Android Introduction
@@ -39,7 +39,7 @@
 
 ---
 
-# Git. What?
+## Git. What?
 
 A version control system that allows you to store versions of your code and back them up.
 
@@ -51,7 +51,7 @@ We will be using it throughout this workshop.
 
 ---
 
-# Git. How?
+## Git. How?
 
 Git works by storing a local copy of your work (called a `repository`) on your machine and you make a `commit` when you want to save your work. 
 
@@ -59,7 +59,7 @@ You can have a remote repository (like `Github.com`) and `push` these local chan
 
 ---
 
-# Git Basics. Example
+## Git Basics. Example
 
 * `mkdir git_test && cd git_test` - Create a folder 
 * `git init` - Initialise a repository on your machine
@@ -68,7 +68,7 @@ You can have a remote repository (like `Github.com`) and `push` these local chan
 
 --- 
 
-# Git Basics. Pushing to the remote.
+## Git Basics. Pushing to the remote.
 
 * Sign up for an account / sign in at [Github](github.com)
 * Click `New Repo`and give it a name
@@ -79,7 +79,7 @@ You can have a remote repository (like `Github.com`) and `push` these local chan
 
 ---
 
-# Git Basics. Cloning.
+## Git Basics. Cloning.
 
 Cloning a `repository` is downloading a remote repository to your machine.
 
@@ -90,7 +90,7 @@ NOTE: If you clone a repository and make changes to it. You can commit, but thes
 
 ---
 
-# Git Basics. Forking.
+## Git Basics. Forking.
 
 If you want to make changes to the repository, then you can `fork` instead of `clone`. 
 
@@ -102,7 +102,7 @@ If you want to make changes to the repository, then you can `fork` instead of `c
 
 ---
 
-# Exercise 1
+## Exercise 1
 
 
 1. Open a terminal and `cd` to a directory of your choice
@@ -116,7 +116,7 @@ If you want to make changes to the repository, then you can `fork` instead of `c
 
 ---
 
-# Git Basics. Branching.
+## Git Basics. Branching.
 
 OK, we have covered the basics of Git, but we need to know one more thing about Git: **Branches**
 
@@ -124,7 +124,7 @@ The `master` branch is the default branch when you create or clone a repository.
 
 ---
 
-# Git Basics. Branching
+## Git Basics. Branching
 
 
 Each step in the exercises we do will be on a different branch. A branch is a different copy of the local repository (i.e. different functionality, separate files, different environments).
@@ -133,7 +133,7 @@ We use branches in development projects to make sure the `master` branch can be 
 
 ---
 
-# Git Basics. Managing Branches
+## Git Basics. Managing Branches
 
 * `git checkout -b <BRANCH_NAME>` - If the branch does not yet exist
 * `git checkout <BRANCH_NAME>` - If the branch already exists
@@ -143,7 +143,7 @@ We use branches in development projects to make sure the `master` branch can be 
 
 ---
 
-# Exercise 2
+## Exercise 2
 
 1. `cd` to the git-test-repo
 2. `git checkout ex2`
